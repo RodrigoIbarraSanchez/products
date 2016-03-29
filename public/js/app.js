@@ -1,0 +1,1 @@
+angular.module('productsApp', ['appRoutes', 'MainCtrl', 'ProductsCtrl']);

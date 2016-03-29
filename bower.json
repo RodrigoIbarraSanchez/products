@@ -1,0 +1,12 @@
+{
+  "name": "ProductsApp",
+  "description": "Aplicación MEAN Stack que mostrará productos por medio de un API REST",
+  "version": "0.0.1",
+  "license": "copyright",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "^0.2.18"
+  }
+}
