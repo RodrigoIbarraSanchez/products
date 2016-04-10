@@ -25,4 +25,4 @@ app.use("/api", require("./src/presenter/productsRouter"));
 
 // Start Server
 app.listen(port)
-console.log("Magic happens on http://loclahost:" + port);
+console.log("Magic happens on http://localhost:" + port);

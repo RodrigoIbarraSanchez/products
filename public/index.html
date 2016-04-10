@@ -12,28 +12,29 @@
 <body>
     <div class="container">
 
-        <!-- HEADER -->
+        <!-- Header -->
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
-                <a class="navbar-brand" ui-sref="home">Node y Angular</a>
+                <p class="navbar-brand">MEAN Stack</p>
             </div>
 
-            <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
+            <!-- Link a nuestras páginas. Aquí maneja las rutas Angular -->
             <ul class="nav navbar-nav">
+                <li><a ui-sref="home">Home</a></li>
                 <li><a ui-sref="products">Products</a></li>
             </ul>
         </nav>
 
-        <!-- ANGULAR DYNAMIC CONTENT -->
+        <!-- Contenido dinámico de Angular -->
         <div ui-view></div>
 
     </div>
 
-    <!-- JS -->
+    <!-- JavaScript -->
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
-    <!-- ANGULAR CUSTOM -->
+    <!-- Archivos Angular -->
     <script src="js/controllers/MainCtrl.js"></script>
     <script src="js/controllers/ProductsCtrl.js"></script>
     <script src="js/services/ProductsService.js"></script>
